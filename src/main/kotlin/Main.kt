@@ -71,10 +71,9 @@ fun multiples(num1:Int,num2:Int){
 
 fun takePassword(password:String):Boolean{
     when(password){
-        in 0..9 ->println()
-        in 9..17->println()
-        in 6..17->println()
-        else -> println()
+        in 0..9 ->println(password)
+        in 9..17->println(password)
+        else -> println("must not be $password or must contain a digit" )
 
 }
 
